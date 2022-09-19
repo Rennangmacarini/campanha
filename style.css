@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header img {
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+}
+
+main h1 {
+    padding: 5rem 0rem;
+    font-size: 50px;
+    text-align: center;
+}
+
+main section .encarte {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+main section .encarte .encarte-1 img {
+    width: 400px;
+}
+
+main .cliente .premio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+
+    margin-top: 5rem;
+}
+
+
+main .cliente .premio img {
+    width: 400px;
+}
+
+.cliente-premio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    margin: 5rem;
+}
+
+.cliente-card img {
+    width: 600px;
+}
+
+main section .card .card-1 img {
+width: 100%;
+}
+
+
+
+footer {
+    background-color: rgb(232, 36, 36);
+}
+
+.logo-rodape {
+    padding-top: 3rem;
+    text-align: center;
+}
+
+footer .logo-rodape img {
+    width: 400px;
+}
+
+.rede-sociais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 2rem;
+}
+
+.card-rede img{
+    width: 50px;
+}
+
+footer h5 {
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+
+    text-align: center;
+    color: white;
+
+    font-size: 16px;
+}
