@@ -1,8 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 
 header img {
     width: 100%;
@@ -11,12 +12,24 @@ header img {
 }
 
 main h1 {
-    padding: 5rem 0rem;
+    margin: 0 auto;
+    margin-top: 5rem;
+    padding: 2rem;
+  
     font-size: 50px;
     text-align: center;
+    width: 600px;
+
+    border-radius: 18px;
+    color: white;
+    text-shadow: -2px 2px 2px rgb(255, 0, 0);
+    background-color: rgb(199, 22, 22);
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
 }
 
 main section .encarte {
+    margin-top: 5rem;
     display: flex;
     justify-content: center;
     gap: 2rem;
@@ -26,6 +39,7 @@ main section .encarte .encarte-1 img {
     width: 400px;
 }
 
+
 main .cliente .premio {
     display: flex;
     justify-content: center;
@@ -33,6 +47,21 @@ main .cliente .premio {
     gap: 3rem;
 
     margin-top: 5rem;
+}
+
+.premio h2 {
+    padding: 1rem;
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+
+    border-radius: 18px;
+
+    color: white;
+    text-shadow: -2px 2px 2px rgb(255, 0, 0);
+    background-color: rgb(199, 22, 22);
+    
+    
 }
 
 
@@ -54,13 +83,13 @@ main .cliente .premio img {
 }
 
 main section .card .card-1 img {
-width: 100%;
+    width: 100%;
 }
 
 
 
 footer {
-    background-color: rgb(232, 36, 36);
+    background-color: rgb(199, 22, 22);
 }
 
 .logo-rodape {
@@ -80,7 +109,7 @@ footer .logo-rodape img {
     margin-top: 2rem;
 }
 
-.card-rede img{
+.card-rede img {
     width: 50px;
 }
 
