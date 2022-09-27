@@ -286,6 +286,11 @@ footer h5 {
 }
 
 @media screen and (max-width:620px) {
+
+    .swiper-slide img {
+        width: 350px;
+    }
+
     .cliente-card img {
         width: 500px;
     }
@@ -295,7 +300,7 @@ footer h5 {
     }
 
     h4 {
-        font-size: 30px;
+        font-size: 35px;
     }
 
     main .cliente .premio img {
