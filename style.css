@@ -289,9 +289,7 @@ footer h5 {
     .cliente-card img {
         width: 500px;
     }
-}
 
-@media screen and (max-width:500px) {
     .cliente-card img {
         width: 400px;
     }
@@ -300,3 +298,5 @@ footer h5 {
         width: 400px;
     }
 }
+
+
