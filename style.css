@@ -294,6 +294,14 @@ footer h5 {
         width: 400px;
     }
 
+    h4 {
+        font-size: 30px;
+    }
+
+    main .cliente .premio img {
+        width: 370px;
+    }
+
     video {
         width: 350px;
     }
