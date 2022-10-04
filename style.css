@@ -37,8 +37,24 @@ main section .encarte {
     gap: 3rem;
 }
 
+h6 {
+    font-size: 16px;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+    padding: 0.5rem;
+
+    cursor: pointer;
+    border-radius: 18px;
+    color: white;
+    text-shadow: -2px 2px 2px rgb(255, 0, 0);
+    background-color: rgb(199, 22, 22);
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
 main section .encarte .encarte-1 img {
-    width: 350px;
+    width: 800px;
     cursor: pointer;
 }
 
@@ -112,8 +128,8 @@ h2 {
 
 .swiper-slide img {
     display: block;
-    width: 250px;
-    padding: 5rem 0rem;
+    width: 400px;
+    height: 500px;
     background-color: #000;
     object-fit: cover;
 }
@@ -182,7 +198,7 @@ footer {
     margin-top: -1rem;
     padding: 2rem 0rem 0rem;
     /*background-color: #8c0001;*/
-    background-color: black;
+    background-color: rgb(199, 22, 22);
 }
 
 
@@ -283,9 +299,33 @@ footer h5 {
         text-align: center;
         width: 350px;
     }
+
+    main section .encarte .encarte-1 img {
+        width: 680px;
+        cursor: pointer;
+    }
+
+    .swiper-slide img {
+        width: 300px;
+        height: 400px;
+    }
+
+   
+}
+
+@media screen and (max-width:700px) {
+    main section .encarte .encarte-1 img {
+        width: 600px;
+        cursor: pointer;
+    }
 }
 
 @media screen and (max-width:620px) {
+
+    main section .encarte .encarte-1 img {
+        width: 480px;
+        cursor: pointer;
+    }
 
     .swiper-slide img {
         width: 350px;
@@ -310,6 +350,26 @@ footer h5 {
     video {
         width: 350px;
     }
+
+    .swiper-slide img {
+        width: 400px;
+        height: 500px;
+    }
 }
 
+@media screen and (max-width:500px) {
+
+    main section .encarte .encarte-1 img {
+        width: 380px;
+        cursor: pointer;
+    }
+
+}
+
+@media screen and (max-width:425px) {
+    .swiper-slide img {
+        width: 350px;
+        height: 450px;
+    }
+}
 
