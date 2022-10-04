@@ -393,5 +393,9 @@ footer h5 {
         width: 350px;
         height: 450px;
     }
+
+    .cliente-card img {
+        width: 350px;
+    }
 }
 
