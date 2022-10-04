@@ -181,13 +181,9 @@ main .cliente .premio img {
 }
 
 .cliente-card img {
-    width: 600px;
-}
-
-
-main section .card .card-1 img {
     width: 100%;
 }
+
 
 .dias-ofertas img {
     width: 100%;
@@ -329,10 +325,6 @@ footer h5 {
 
     .swiper-slide img {
         width: 350px;
-    }
-
-    .cliente-card img {
-        width: 500px;
     }
 
     .cliente-card img {
