@@ -1,6 +1,7 @@
 let play = document.querySelector('.play')
 let remover = document.querySelector('.remover')
-let encarte = document.querySelector('h6')
+let encarteOne = document.querySelector('.one')
+let encarteTwo = document.querySelector('.two')
 
 
 play.addEventListener('click', function(){
@@ -13,9 +14,13 @@ remover.addEventListener('click', function() {
     play.classList.remove('hide')
 })
 
-encarte.addEventListener('click', function(){
+encarteOne.addEventListener('click', function(){
     play.classList.add('hide')
     remover.classList.remove('hide')
-    return
+})
+
+encarteTwo.addEventListener('click', function(){
+    play.classList.remove('hide')
+    remover.classList.add('hide')
 })
 

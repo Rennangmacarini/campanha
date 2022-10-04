@@ -53,6 +53,18 @@ h6 {
     font-family: 'Open Sans', sans-serif;
 }
 
+.encarte-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+span {
+    cursor: pointer;
+    font-size: 100px;
+    color: rgb(255, 0, 0);
+}
+
 main section .encarte .encarte-1 img {
     width: 800px;
     cursor: pointer;
@@ -162,8 +174,6 @@ main .cliente .premio {
     color: white;
     text-shadow: -2px 2px 2px rgb(255, 0, 0);
     background-color: rgb(199, 22, 22);
-
-
 }
 
 
@@ -281,6 +291,12 @@ footer h5 {
     main .cliente .premio {
         flex-direction: column;
     }
+
+    
+    main section .encarte .encarte-1 img {
+        width: 680px;
+        cursor: pointer;
+    }
 }
 
 @media screen and (max-width:850px) {
@@ -296,30 +312,38 @@ footer h5 {
         width: 350px;
     }
 
-    main section .encarte .encarte-1 img {
-        width: 680px;
-        cursor: pointer;
-    }
-
     .swiper-slide img {
         width: 300px;
         height: 400px;
+    }
+
+    main section .encarte .encarte-1 img {
+        width: 580px;
+        cursor: pointer;
+    }
+
+    span {
+        font-size: 80px;
     }
 
    
 }
 
 @media screen and (max-width:700px) {
+
     main section .encarte .encarte-1 img {
-        width: 600px;
-        cursor: pointer;
+        width: 520px;
+    }
+
+    span {
+        font-size: 60px;
     }
 }
 
 @media screen and (max-width:620px) {
 
     main section .encarte .encarte-1 img {
-        width: 480px;
+        width: 450px;
         cursor: pointer;
     }
 
@@ -349,10 +373,16 @@ footer h5 {
     }
 }
 
+@media screen and (max-width:555px) {
+    main section .encarte .encarte-1 img {
+        width: 400px;
+    }
+}
+
 @media screen and (max-width:500px) {
 
     main section .encarte .encarte-1 img {
-        width: 380px;
+        width: 300px;
         cursor: pointer;
     }
 
